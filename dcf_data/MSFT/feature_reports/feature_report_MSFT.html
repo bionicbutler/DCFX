@@ -1,0 +1,111 @@
+
+        <html>
+        <head>
+            <title>Feature Engineering Report - MSFT</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2, h3 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; font-weight: bold; }
+                .metric { font-weight: bold; color: #2ecc71; }
+                .section { margin: 30px 0; }
+            </style>
+        </head>
+        <body>
+            <h1>Feature Engineering Report - MSFT</h1>
+            <p>Generated: 2025-06-25 08:33:03</p>
+            
+            <div class='section'>
+                <h2>Summary</h2>
+                <table>
+                    <tr><th>Metric</th><th>Value</th></tr>
+                    <tr><td>Total Features Created</td><td class='metric'>43</td></tr>
+                    <tr><td>Target Variables</td><td class='metric'>5</td></tr>
+                    <tr><td>Total Observations</td><td>71</td></tr>
+                    <tr><td>Date Range</td><td>2007-09-30 00:00:00 to 2025-03-31 00:00:00</td></tr>
+                </table>
+            </div>
+            
+            <div class='section'>
+                <h2>Target Variables</h2>
+                <table>
+                    <tr><th>Target</th><th>Description</th><th>Non-null Count</th><th>Mean</th><th>Std</th></tr>
+        
+                    <tr>
+                        <td>revenue_growth_1y</td>
+                        <td>Forward 1-year revenue growth</td>
+                        <td>67</td>
+                        <td>0.1444</td>
+                        <td>0.4714</td>
+                    </tr>
+            
+                    <tr>
+                        <td>revenue_growth_2y</td>
+                        <td>Forward 2-year revenue growth</td>
+                        <td>71</td>
+                        <td>0.0133</td>
+                        <td>0.0536</td>
+                    </tr>
+            
+                    <tr>
+                        <td>ebit_margin</td>
+                        <td>EBIT as % of Revenue</td>
+                        <td>19</td>
+                        <td>0.4299</td>
+                        <td>0.0694</td>
+                    </tr>
+            
+                    <tr>
+                        <td>capex_pct_revenue</td>
+                        <td>CapEx as % of Revenue</td>
+                        <td>19</td>
+                        <td>0.1270</td>
+                        <td>0.1236</td>
+                    </tr>
+            
+                    <tr>
+                        <td>terminal_growth_proxy</td>
+                        <td>Long-term growth approximation</td>
+                        <td>56</td>
+                        <td>0.0310</td>
+                        <td>0.0452</td>
+                    </tr>
+            
+                </table>
+            </div>
+            
+            <div class='section'>
+                <h2>Feature Categories</h2>
+                <table>
+                    <tr><th>Category</th><th>Count</th><th>Examples</th></tr>
+        
+                    <tr>
+                        <td>Fundamental</td>
+                        <td>19</td>
+                        <td>Revenue_growth_qoq, Revenue_growth_yoy, EBIT_growth_qoq...</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Lagged</td>
+                        <td>12</td>
+                        <td>EBIT_lag1, EBIT_lag2, EBIT_lag4...</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Rolling</td>
+                        <td>13</td>
+                        <td>EBIT_ma4, EBIT_std4, EBIT_min4...</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Macro</td>
+                        <td>7</td>
+                        <td>treasury_change_1q, treasury_change_1y, treasury_level...</td>
+                    </tr>
+                
+                </table>
+            </div>
+        </body>
+        </html>
+        

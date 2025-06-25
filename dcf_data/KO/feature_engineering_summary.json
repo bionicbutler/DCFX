@@ -1,0 +1,31 @@
+{
+  "ticker": "KO",
+  "engineering_date": "2025-06-24T16:20:38.965827",
+  "n_features": 40,
+  "n_targets": 5,
+  "n_observations": 69,
+  "date_range": {
+    "start": "2007-12-31 00:00:00",
+    "end": "2024-12-31 00:00:00"
+  },
+  "feature_categories": {
+    "fundamental": 16,
+    "lagged": 12,
+    "rolling": 13,
+    "macro": 7,
+    "interaction": 0,
+    "correlation": 0
+  },
+  "parameters": {
+    "lag_periods": [
+      1,
+      2,
+      4
+    ],
+    "rolling_windows": [
+      4,
+      8
+    ],
+    "correlation_window": 8
+  }
+}

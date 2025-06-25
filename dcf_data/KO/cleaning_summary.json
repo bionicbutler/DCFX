@@ -1,0 +1,20 @@
+{
+  "ticker": "KO",
+  "cleaning_date": "2025-06-24T16:20:37.714766",
+  "records_before": {
+    "fundamental": 68,
+    "macro": 81,
+    "price": 0
+  },
+  "records_after": {
+    "fundamental": 69,
+    "macro": 69,
+    "price": 0
+  },
+  "validation_issues": 0,
+  "quality_thresholds": {
+    "outlier_threshold": 3,
+    "max_missing_pct": 0.3,
+    "min_quarters": 12
+  }
+}

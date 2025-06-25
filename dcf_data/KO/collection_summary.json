@@ -1,0 +1,11 @@
+{
+  "ticker": "KO",
+  "collection_date": "2025-06-24T16:20:35.162527",
+  "data_start": "2005-06-29T16:20:30.364388",
+  "data_end": "2025-06-24T16:20:30.364388",
+  "fundamental_records": 68,
+  "sec_records": 68,
+  "yf_records": 7,
+  "macro_records": 81,
+  "price_records": 0
+}

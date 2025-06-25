@@ -1,0 +1,31 @@
+{
+  "ticker": "MSFT",
+  "engineering_date": "2025-06-25T08:33:04.077787",
+  "n_features": 43,
+  "n_targets": 5,
+  "n_observations": 71,
+  "date_range": {
+    "start": "2007-09-30 00:00:00",
+    "end": "2025-03-31 00:00:00"
+  },
+  "feature_categories": {
+    "fundamental": 19,
+    "lagged": 12,
+    "rolling": 13,
+    "macro": 7,
+    "interaction": 0,
+    "correlation": 0
+  },
+  "parameters": {
+    "lag_periods": [
+      1,
+      2,
+      4
+    ],
+    "rolling_windows": [
+      4,
+      8
+    ],
+    "correlation_window": 8
+  }
+}

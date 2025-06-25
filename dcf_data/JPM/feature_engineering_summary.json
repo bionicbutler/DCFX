@@ -1,0 +1,31 @@
+{
+  "ticker": "JPM",
+  "engineering_date": "2025-06-25T08:30:10.033398",
+  "n_features": 62,
+  "n_targets": 4,
+  "n_observations": 40,
+  "date_range": {
+    "start": "2015-06-30 00:00:00",
+    "end": "2025-03-31 00:00:00"
+  },
+  "feature_categories": {
+    "fundamental": 43,
+    "lagged": 9,
+    "rolling": 33,
+    "macro": 7,
+    "interaction": 0,
+    "correlation": 3
+  },
+  "parameters": {
+    "lag_periods": [
+      1,
+      2,
+      4
+    ],
+    "rolling_windows": [
+      4,
+      8
+    ],
+    "correlation_window": 8
+  }
+}

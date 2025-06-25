@@ -1,0 +1,25 @@
+{
+  "ticker": "JPM",
+  "collection_date": "2025-06-25T08:30:07.346613",
+  "data_start": "2005-06-30T08:30:05.642200",
+  "data_end": "2025-06-25T08:30:05.642200",
+  "fundamental_records": 40,
+  "sec_records": 40,
+  "yf_records": 7,
+  "macro_records": 41,
+  "price_records": 0,
+  "dcf_data_available": {
+    "shares_outstanding": true,
+    "beta": true,
+    "current_price": true,
+    "working_capital": true,
+    "historical_metrics": true
+  },
+  "dcf_metrics_available": [
+    "effective_tax_rate",
+    "implied_cost_of_debt",
+    "revenue_growth_1y",
+    "revenue_growth_3y",
+    "historical_ebit_margin"
+  ]
+}

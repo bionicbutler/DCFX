@@ -1,0 +1,186 @@
+
+        <html>
+        <head>
+            <title>Data Quality Report - JPM</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2, h3 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; font-weight: bold; }
+                .warning { color: #ff6b6b; }
+                .good { color: #51cf66; }
+                .section { margin: 30px 0; }
+            </style>
+        </head>
+        <body>
+            <h1>Data Quality Report - JPM</h1>
+            <p>Generated: 2025-06-25 08:30:07</p>
+        <div class='section'><h2>Summary</h2><table><tr><th>Dataset</th><th>Records</th><th>Columns</th><th>Date Range</th></tr>
+                <tr>
+                    <td>Fundamental</td>
+                    <td>40</td>
+                    <td>7</td>
+                    <td>2015-06-30 to 2025-03-31</td>
+                </tr>
+                
+                <tr>
+                    <td>Macro</td>
+                    <td>40</td>
+                    <td>9</td>
+                    <td>2015-06-30 to 2025-03-31</td>
+                </tr>
+                </table></div><div class='section'><h2>Data Quality Details</h2><h3>Fundamental</h3><table border="1" class="dataframe quality-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>column</th>
+      <th>data_type</th>
+      <th>total_records</th>
+      <th>missing_count</th>
+      <th>missing_pct</th>
+      <th>zeros_count</th>
+      <th>negative_count</th>
+      <th>outliers_count</th>
+      <th>validation_errors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Revenue</td>
+      <td>fundamental</td>
+      <td>40</td>
+      <td>26</td>
+      <td>0.650</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>EBIT</td>
+      <td>fundamental</td>
+      <td>40</td>
+      <td>0</td>
+      <td>0.000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>TotalAssets</td>
+      <td>fundamental</td>
+      <td>40</td>
+      <td>0</td>
+      <td>0.000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>TotalDebt</td>
+      <td>fundamental</td>
+      <td>40</td>
+      <td>35</td>
+      <td>0.875</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>PretaxIncome</td>
+      <td>fundamental</td>
+      <td>40</td>
+      <td>0</td>
+      <td>0.000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>TaxProvision</td>
+      <td>fundamental</td>
+      <td>40</td>
+      <td>0</td>
+      <td>0.000</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>InterestExpense</td>
+      <td>fundamental</td>
+      <td>40</td>
+      <td>4</td>
+      <td>0.100</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>[]</td>
+    </tr>
+  </tbody>
+</table><h3>Macro</h3><table border="1" class="dataframe quality-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>column</th>
+      <th>data_type</th>
+      <th>total_records</th>
+      <th>missing_count</th>
+      <th>missing_pct</th>
+      <th>zeros_count</th>
+      <th>negative_count</th>
+      <th>outliers_count</th>
+      <th>validation_errors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10Y_Treasury</td>
+      <td>macro</td>
+      <td>41</td>
+      <td>0</td>
+      <td>0.00000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>GDP_Growth</td>
+      <td>macro</td>
+      <td>41</td>
+      <td>2</td>
+      <td>0.04878</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>VIX</td>
+      <td>macro</td>
+      <td>41</td>
+      <td>0</td>
+      <td>0.00000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>SPY</td>
+      <td>macro</td>
+      <td>41</td>
+      <td>0</td>
+      <td>0.00000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+  </tbody>
+</table></div></body></html>

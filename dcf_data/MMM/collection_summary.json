@@ -1,0 +1,11 @@
+{
+  "ticker": "MMM",
+  "collection_date": "2025-06-24T16:18:34.934391",
+  "data_start": "2015-06-27T16:18:30.346302",
+  "data_end": "2025-06-24T16:18:30.346302",
+  "fundamental_records": 40,
+  "sec_records": 40,
+  "yf_records": 7,
+  "macro_records": 41,
+  "price_records": 0
+}

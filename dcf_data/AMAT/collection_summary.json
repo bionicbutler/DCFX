@@ -1,0 +1,11 @@
+{
+  "ticker": "AMAT",
+  "collection_date": "2025-06-24T16:03:50.921701",
+  "data_start": "2015-06-27T16:03:49.930661",
+  "data_end": "2025-06-24T16:03:49.930661",
+  "fundamental_records": 40,
+  "sec_records": 40,
+  "yf_records": 7,
+  "macro_records": 41,
+  "price_records": 0
+}

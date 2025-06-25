@@ -1,0 +1,197 @@
+
+        <html>
+        <head>
+            <title>Data Quality Report - MSFT</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2, h3 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; font-weight: bold; }
+                .warning { color: #ff6b6b; }
+                .good { color: #51cf66; }
+                .section { margin: 30px 0; }
+            </style>
+        </head>
+        <body>
+            <h1>Data Quality Report - MSFT</h1>
+            <p>Generated: 2025-06-25 08:33:01</p>
+        <div class='section'><h2>Summary</h2><table><tr><th>Dataset</th><th>Records</th><th>Columns</th><th>Date Range</th></tr>
+                <tr>
+                    <td>Fundamental</td>
+                    <td>71</td>
+                    <td>8</td>
+                    <td>2007-09-30 to 2025-03-31</td>
+                </tr>
+                
+                <tr>
+                    <td>Macro</td>
+                    <td>71</td>
+                    <td>9</td>
+                    <td>2007-09-30 to 2025-03-31</td>
+                </tr>
+                </table></div><div class='section'><h2>Data Quality Details</h2><h3>Fundamental</h3><table border="1" class="dataframe quality-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>column</th>
+      <th>data_type</th>
+      <th>total_records</th>
+      <th>missing_count</th>
+      <th>missing_pct</th>
+      <th>zeros_count</th>
+      <th>negative_count</th>
+      <th>outliers_count</th>
+      <th>validation_errors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Revenue</td>
+      <td>fundamental</td>
+      <td>71</td>
+      <td>52</td>
+      <td>0.732394</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>EBIT</td>
+      <td>fundamental</td>
+      <td>71</td>
+      <td>3</td>
+      <td>0.042254</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>CapEx</td>
+      <td>fundamental</td>
+      <td>71</td>
+      <td>3</td>
+      <td>0.042254</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>TotalAssets</td>
+      <td>fundamental</td>
+      <td>71</td>
+      <td>8</td>
+      <td>0.112676</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>TotalDebt</td>
+      <td>fundamental</td>
+      <td>71</td>
+      <td>13</td>
+      <td>0.183099</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>PretaxIncome</td>
+      <td>fundamental</td>
+      <td>71</td>
+      <td>52</td>
+      <td>0.732394</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>TaxProvision</td>
+      <td>fundamental</td>
+      <td>71</td>
+      <td>3</td>
+      <td>0.042254</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>InterestExpense</td>
+      <td>fundamental</td>
+      <td>71</td>
+      <td>9</td>
+      <td>0.126761</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+  </tbody>
+</table><h3>Macro</h3><table border="1" class="dataframe quality-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>column</th>
+      <th>data_type</th>
+      <th>total_records</th>
+      <th>missing_count</th>
+      <th>missing_pct</th>
+      <th>zeros_count</th>
+      <th>negative_count</th>
+      <th>outliers_count</th>
+      <th>validation_errors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10Y_Treasury</td>
+      <td>macro</td>
+      <td>81</td>
+      <td>1</td>
+      <td>0.012346</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>GDP_Growth</td>
+      <td>macro</td>
+      <td>81</td>
+      <td>2</td>
+      <td>0.024691</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>VIX</td>
+      <td>macro</td>
+      <td>81</td>
+      <td>1</td>
+      <td>0.012346</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>SPY</td>
+      <td>macro</td>
+      <td>81</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+  </tbody>
+</table></div><div class='section'><h2>Validation Issues</h2><h3 class='warning'>High CapEx/Revenue</h3><p>Found in 1 periods</p><p>Sample values: [0.5176989509787256]</p><h3 class='warning'>Extreme EBIT Margin</h3><p>Found in 6 periods</p><p>Sample values: [1.4062638125907685, 1.5545461485609589, 1.2527063366200097, 1.5024627470540557, 1.30840484278728]</p></div></body></html>

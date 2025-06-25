@@ -1,0 +1,20 @@
+{
+  "ticker": "MSFT",
+  "cleaning_date": "2025-06-25T08:33:03.051761",
+  "records_before": {
+    "fundamental": 71,
+    "macro": 81,
+    "price": 0
+  },
+  "records_after": {
+    "fundamental": 71,
+    "macro": 71,
+    "price": 0
+  },
+  "validation_issues": 2,
+  "quality_thresholds": {
+    "outlier_threshold": 3,
+    "max_missing_pct": 0.3,
+    "min_quarters": 12
+  }
+}

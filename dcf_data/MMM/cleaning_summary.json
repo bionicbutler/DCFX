@@ -1,0 +1,20 @@
+{
+  "ticker": "MMM",
+  "cleaning_date": "2025-06-24T16:18:36.647688",
+  "records_before": {
+    "fundamental": 40,
+    "macro": 41,
+    "price": 0
+  },
+  "records_after": {
+    "fundamental": 40,
+    "macro": 40,
+    "price": 0
+  },
+  "validation_issues": 1,
+  "quality_thresholds": {
+    "outlier_threshold": 3,
+    "max_missing_pct": 0.3,
+    "min_quarters": 12
+  }
+}
